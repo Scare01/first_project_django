@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-def hello(request):
+def index(request):
     return render(request, "firstapp/templates/index.html", {})
 
 
